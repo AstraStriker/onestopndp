@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.info-card p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.info-card h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.nav {
+    display: flex;
+    position: sticky;
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 1.25em;
+}
+
+.nav-img {
+    position: relative;
+    width: 147px;
+    height: 66px;
+}
+
+.formbody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% auto;
+    padding: auto;
+}
+
+.formcard {
+    gap: 10px;
+    width: 1170px;
+    display: flex;
+    padding: 70px 62.5px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.10000000149011612);
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.formcard-text{
+    position: relative;
+    gap: 15px;
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-start;
+    flex-direction: column;
+}
+
+.formcard:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.boldtext {
+    color: rgba(80, 80, 80, 1);
+    height: auto;
+    font-size: 35px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 45px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.lighttext {
+    color: rgba(80, 80, 80, 1);
+    height: auto;
+    font-size: 18px;
+    align-self: stretch;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 28px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.form-mainform{
+    gap: 45px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.form-input {
+    padding: 0.68em 0.62em;
+    margin: 0.5em 0.625em;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #50505080 ; 
+    gap: 0.625em;
+    height: 2.31em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form-input:focus{
+    outline: none;
+}
+
+.form-msg-input:focus{
+    outline: none;
+}
+
+.form-msg-input{
+    display: inline;
+    padding: 11px 10px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #50505080 ; 
+    gap: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 6.67em;
+    resize: none;
+}
+
+.form-row-1{
+    gap: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.form-row-2{
+    gap: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.form-row-3{
+    gap: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.form-btn{
+    color: white;
+    width: 143px;
+    height: 50px;
+    size: 40px;
+    justify-self: flex-end;
+    align-self: end;
+    border-radius: 50px;
+    border-style: none;
+    float: right;
+    gap: 10px;
+    display: flex;
+    padding: 13px 30px;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgba(0, 173, 238, 1);
+
+}
+
+.form-btn:focus{
+    outline: none;
+}
+
+.info-card {
+    position: absolute;
+    margin-top: 162px;
+    margin-left: 135px;
+    background-image: linear-gradient(#103977,#171352);
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.map-link {
+ display: inline;
+}
+
+.map-link p img{
+    size: 35px;
+}
+
+.map-link p{
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.showcase{
+    display: flex;
+    justify-content: stretch;
+    padding: 20px 90px;
+    margin: 90px 0;
+    gap: 20px;
+}
+
+
+.showcase-image{
+    width: 170px; 
+    height: 170px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.inner-image{
+    top: 0px;
+    left: 0px;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.image-label{
+    top: 130px;
+    left: 44px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.showcase-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.showcase-image p{
+    display: block;
+    text-align: center;
+    align-self: flex-end;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(#103977,#171352);
+    margin: 0;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+.footer-logo img{
+    padding: 70px 10% 70px 0;
+    margin: 0 10px 0 0;
+    width: 170px;
+    height: 70px;
+}
+
+.footer p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    margin: 20px 10%;
+
+}
+
+footer{
+    margin: 0;
+}
+
+.footer hr{
+    margin: 0 10%;
+}
+
+html{
+    margin-bottom: 0;
+}
+
+.page{
+    color: white;
+    margin-bottom: 0;
+}
+
+@media (max-width: 415px){
+
+    .page{
+        color: white;
+        margin-bottom: 0;
+        width: 411px;
+        overflow: hidden;
+    }
+
+    div{
+        border-style: none;
+        box-shadow: none;
+    }
+
+    .nav {
+        display: flex;
+        position: sticky;
+        padding: 40px 35.5px;
+        background-color: white;
+    }
+    
+    .nav-img {
+        position: relative;
+        width: 102px;
+        height: 46px;
+    }
+
+    .formbody {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 15% auto;
+        padding: 10px;
+        width: 415px;
+        overflow: hidden;
+        overflow-x: hidden;
+    }
+    
+    .formcard {
+        gap: 10px;
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px 35px;
+        align-items: center;
+        border-radius: 0px;
+        border-style: none;
+        justify-content: center;
+        gap: 30px;
+        box-shadow: none;
+    }
+    
+    .formcard-text{
+        gap: 15px;
+        display: flex;
+        align-items: center;
+        align-self: flex-start;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .formcard:hover{
+        border: none;
+        box-shadow: none;
+    }
+    
+
+    .boldtext {
+        color: rgba(80, 80, 80, 1);
+        width: 270px;
+        height: auto;
+        font-size: 25px;
+        font-style: Bold;
+        text-align: left;
+        font-family: Montserrat;
+        font-weight: 700;
+        line-height: 35px;
+        font-stretch: normal;
+        text-decoration: none;  
+      }
+    
+    .lighttext {
+        color: rgba(80, 80, 80, 1);
+        width: 270px;
+        height: auto;
+        font-size: 18px;
+        font-style: Medium;
+        text-align: left;
+        font-family: Montserrat;
+        font-weight: 500;
+        line-height: 28px;
+        font-stretch: normal;
+        text-decoration: none;
+    }
+
+    .form-row-1{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .form-row-2{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .form-row-3{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-card {
+        position: absolute;
+        margin-top: 32px;
+        margin-left: 36px;
+        background-image: linear-gradient(#103977,#171352);
+        color: white;
+        padding: 50px;
+        border-radius: 10px;
+    }
+
+    .form-btn{
+        color: white;
+        width: 270px;
+        height: 50px;
+        size: 40px;
+        justify-self: flex-end;
+        align-self: center;
+        border-radius: 50px;
+        border-style: none;
+        float: right;
+        gap: 10px;
+        display: flex;
+        padding: 13px 30px;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 173, 238, 1);
+    
+    }
+
+    .form-input{
+        width: 270px;
+        margin: 0;
+        align-items: flex-start;
+    }
+
+    .form-msg-input{
+        
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid #50505080 ; 
+        gap: 0.625rem;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        height: 107px;
+        width: 270px;
+        resize: none;
+        align-self: flex-start;
+        justify-self: start;
+
+    }
+
+    .showcase{
+        gap: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .showcase-image{
+        display: flex;
+        position: relative;
+        align-items: start;
+        justify-items: flex-start;
+        flex-shrink: 0;
+    }
+
+    .showcase-row{
+        gap: 30px;
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .inner-image{
+        width: 160px;
+        height: 92px;
+        position: absolute;
+        border-color: rgba(255, 255, 255, 1);
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+    }
+
+    .info-card {
+        position: relative;
+        top: 32px;
+        left: 30px;
+        background-image: linear-gradient(#103977,#171352);
+        width: 200px;
+        color: white;
+        padding: 50px;
+        border-radius: 10px;
+        overflow: hidden;
+        overflow-x: hidden;
+        align-self: center;
+    }
+
+    .info-card h2{
+        size: 20px;
+    }
+
+    .info-card p{
+        size: 10px;
+    }
+
+    .image-label{
+        top: 37px;
+        left: 52px;
+        color: rgba(255, 255, 255, 1);
+        height: auto;
+        position: absolute;
+        font-size: 14px;
+        font-style: SemiBold;
+        text-align: left;
+        font-family: Montserrat;
+        font-weight: 600;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(#103977,#171352);
+        margin: 0;
+    }
+    
+    .footer-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-logo img{
+        padding: 70px 10% 70px 0;
+        margin: 0 10px 0 0;
+        width: 170px;
+        height: 70px;
+    }
+    
+    .footer p{
+        visibility: hidden;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: white;
+        margin: 20px 10%;
+    
+    }
+    
+    footer{
+        margin: 0;
+    }
+    
+    .footer hr{
+        visibility: hidden;
+    }
+    
+}
